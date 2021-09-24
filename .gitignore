@@ -1,12 +1,55 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+# Git
+*.rej
+*.orig
 
-# Test binary, build with `go test -c`
-*.test
+# Make
+dist/
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea
+
+# Eclipse
+.classpath
+.project
+.settings
+
+#vim
+*.swp
+
+#Node.js
+node
+node_modules
+npm-debug.log
+
+#Oxygen
+__MACOSX
+
+#OSX
+.DS_Store
+
+
+.gitreview
+
+vendor
+
+.gradle
+.gogradle
+/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+
+# VS Code
+.vscode
